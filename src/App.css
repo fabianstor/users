@@ -1,0 +1,141 @@
+.home-container {
+    display: flex;
+}
+
+.layaout-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0968eb;
+    width: 60%;
+    gap: 150px;
+    height: 100vh;
+}
+
+.layaout-container span {
+    color : white;
+}
+.upteam {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+}
+.welcome {
+   font-size: 35px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.subupteam {
+    font-size: 20px;
+    width: 390px;
+}
+.subcontainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+}/* 
+.main {
+    display: flex;
+    justify-content: 10px;
+} */
+.log-in {
+    margin-bottom: 30px;
+    color: #0968eb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.createaccount {
+    color: #0968eb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.createaccount:hover {
+    cursor: pointer;
+}
+.donthave {
+    color: #bbbbbb;
+}
+.container-account {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.account {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 160px;
+}
+.account-subcontainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.containeraccount {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.inputs-login {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+.input-login {
+    border: none;
+    height: 30px;
+    border-bottom: solid #dad7d7;
+}
+.input-login:focus {
+    outline: none !important;
+    border: none;
+    border-bottom: solid #dad7d7;
+}
+.btn-container {
+    margin-top: 30px;
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+}
+.btn-signin {
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #0968eb;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: #0968eb;
+}
+.btn-signin:hover {
+    cursor: pointer;
+    box-shadow: solid #bbbbbb;
+    transition: 0.7;
+}
+.container-check{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #bbbbbb;
+    width: 140px;
+}
+.forget-password {
+    color: #0968eb;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.span-forget:hover {
+    cursor: pointer;
+}
+.container-img {
+    height: 200px;
+    margin-left: 350px;
+}
+.img {
+    height: 200px;
+}
