@@ -31,7 +31,7 @@ function Task() {
   }
 
   const showTasks = (key: number) => {
-    showTask = !showTask
+    
   }
 
   return (
